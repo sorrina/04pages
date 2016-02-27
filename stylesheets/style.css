@@ -1,3 +1,36 @@
 .nav-color{
-    background-color:green !important;
+    background-color:#ed00ed !important;
+    padding:0px 30px;
+}
+
+.text-center{
+    color:#546E7A;
+    text-align:center;
+}
+
+.card_home{
+    margin: 2em 0em;
+    font-size:2em;
+}
+
+.text{
+    font-size:20px;
+    color:#6C6E7A;
+}
+
+.background{
+    background-image:url(../bilder/background.jpg);
+    background-size:cover;
+}
+
+.pink{
+    background-color:##ed00ed;
+}
+
+.border{
+        border:2px solid #ed00ed;
+}
+
+.material-icons{
+    color:#ed00ed;
 }
