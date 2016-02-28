@@ -33,17 +33,14 @@
                <a href="tel:0677 62023284"><i class="fa fa-mobile fa-5x"></i></a>
                <a href="mailto:kathisag@hotmail.com"><i class="fa fa-envelope-o fa-5x"></i></a>
                <a href="https://github.com/sorrina" target="blank"><i class="fa fa-github fa-5x"></i></a>
-
            </div>
        </div>
-         <div class="footer-copyright pink">
+       <div class="footer-copyright pink">
            <div class="container">
-           © 2016 Copyright Text
+               © 2016 Copyright Text
            </div>
-         </div>
-       </footer>
-
-
-
+       </div>
+   </footer>
+   
 </body>
 </html>

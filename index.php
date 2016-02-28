@@ -19,10 +19,4 @@ if (file_exists($pfad)) {
     echo "Die Datei existiert nicht";
 }
 
-
-
-
-
-
-
  ?>
