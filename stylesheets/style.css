@@ -1,3 +1,5 @@
+
+
 .nav-color{
     background-color:#ed00ed !important;
     padding:0px 30px;
@@ -11,6 +13,7 @@
 .card_home{
     margin: 2em 0em;
     font-size:2em;
+    background-color:#FFE4E1 !important;
 }
 
 .text{
@@ -21,16 +24,23 @@
 .background{
     background-image:url(../bilder/background.jpg);
     background-size:cover;
+    border-top:1px solid #546E7A;
 }
+
 
 .pink{
     background-color:##ed00ed;
 }
 
-.border{
-        border:2px solid #ed00ed;
+footer .fa{
+        color:#ed00ed;
+        margin:0px 60px;
 }
 
-.material-icons{
-    color:#ed00ed;
+.impressum{
+    color:#546E7A;
+}
+
+button{
+    color:green;
 }
