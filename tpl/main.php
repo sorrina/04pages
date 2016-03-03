@@ -3,22 +3,33 @@
 <head>
     <meta charset="utf-8" />
     <title>Main</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
-  <link rel="stylesheet" href="stylesheets/style.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
 
   <nav class="nav-color">
     <div class="nav-wrapper">
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="?page=home">Startseite</a></li>
-        <li><a href="?page=about">Über mich</a></li>
-        <li><a href="?page=impressum">Impresssum</a></li>
+      <a href="#!" class="brand-logo">Logo</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+          <li><a href="?page=home">Startseite</a></li>
+          <li><a href="?page=about">Über mich</a></li>
+          <li><a href="?page=login">Login</a></li>
+          <li><a href="?page=impressum">Impresssum</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+          <li><a href="?page=home">Startseite</a></li>
+          <li><a href="?page=about">Über mich</a></li>
+          <li><a href="?page=impressum">Impresssum</a></li>
       </ul>
     </div>
   </nav>
+
+
+
 
   <div class="container">
       <?php
@@ -41,6 +52,13 @@
            </div>
        </div>
    </footer>
-   
+
+
+
+<script>
+    $( document ).ready(function(){})
+</script>
+
+
 </body>
 </html>
