@@ -14,7 +14,15 @@ if ($database->has("login", [
 ]))
 {
     echo "Password is correct.";
-    $_SESSION["login"] = $user;
+
+    $id= $database->get("login", "id", [
+        "AND" => [
+                "passwort" => $pass,
+                "user" => $user
+        ]
+    ]);
+
+    $_SESSION["login"] = $id;
     header("Location: ?page=home");
 }
 else

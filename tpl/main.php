@@ -40,6 +40,9 @@
 
   <footer class="page-footer background">
       <div class="container">
+          <div>
+              <?php echo newswidget($database, 1);?>
+          </div>
            <div class="row text-center">
                <a href="tel:0677 62023284"><i class="fa fa-mobile fa-5x"></i></a>
                <a href="mailto:kathisag@hotmail.com"><i class="fa fa-envelope-o fa-5x"></i></a>

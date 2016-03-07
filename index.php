@@ -15,10 +15,13 @@ else{
 }
 $pfad = "html/$page.html";
 
+if($page =="news"){
+    include("html/news.php");
+    include("tpl/main.php");
+}
 
-if ($database->has("content", array("name" => $page))){
+elseif ($database->has("content", array("name" => $page))){
     $content = $database->get("content", "content", array("name" => $page));
-
     include("tpl/main.php");
 }elseif(isset($_GET["admin"])){
 if (is_eingeloggt()){
